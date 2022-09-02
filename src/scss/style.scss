@@ -1,9 +1,11 @@
 $black: #000;
 $white: #fff;
 $bgcolor: #f2f2f2;
+$bgnavbar: #f6f6f6;
 $primarycolor:#00A4E5;
 $secondarycolor:#48555B;
 $storycolor: #16ACE8;
+$border: #e6e6e6;
 
 
 @import 'mixin';
@@ -100,7 +102,7 @@ body {
 }
 
 .header {
-  flex: 1 0 auto;
+  flex: 0 0 auto;
 }
 
 .main {
@@ -130,5 +132,5 @@ body {
   letter-spacing: .02rem;
 }
 
-// @import 'reset';
+@import 'home';
 @import 'header';
