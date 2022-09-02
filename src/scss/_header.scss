@@ -1,7 +1,55 @@
+.header {}
+
 .top {
   background: url(../img/bg/first_bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   width: 100vw;
-  height: 100vh;
+  // height: 77rem;
+
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    align-items: center;
+    padding-top: 4.16rem;
+  }
+
+  &__content {
+    padding-top: 31.841rem;
+  }
+
+  &__title {
+    font-family: 'BebasNeue-Regular', serif;
+    font-size: 6rem;
+    text-transform: uppercase;
+    line-height: 100%;
+    letter-spacing: 0.571rem;
+    color: $white;
+  }
+
+  &__txt {
+    font-size: 1.6rem;
+    text-align: center;
+    font-weight: 600;
+    line-height: 100%;
+    color: $white;
+    padding-top: 0.3rem;
+  }
+
+  &__down {
+    padding-top: 22.1rem;
+    padding-bottom: 7.1rem;
+  }
+
+  &__subtitle {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    line-height: 1.289rem;
+    letter-spacing: 0.37rem;
+    color: $white;
+  }
 }
+
+.logo {}

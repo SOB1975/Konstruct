@@ -14,8 +14,8 @@ $storycolor: #16ACE8;
 @include font-face("OpenSans-SemiBold", "OpenSans-SemiBold", 600);
 
 * {
-  // margin: 0;
-  // padding: 0;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
   outline: none;
   border: none;
@@ -43,25 +43,6 @@ html {
     background: $black;
   }
 
-  @media (max-width: 108em) {
-    font-size: 9px;
-  }
-
-  @media (max-width: 105em) {
-    font-size: 8.75px;
-  }
-
-  @media(max-width: 91.5em) {
-    font-size: 7.9px;
-  }
-
-  @media(max-width: 91em) {
-    font-size: 8.4px;
-  }
-
-  @media(max-width: 90em) {
-    font-size: 7.9px;
-  }
 
   @media(max-width: 80em) {
     font-size: 7.2px;
@@ -147,5 +128,5 @@ body {
   letter-spacing: .02rem;
 }
 
-@import 'reset';
+// @import 'reset';
 @import 'header';
