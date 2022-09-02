@@ -33,7 +33,7 @@ html {
   // scroll-padding-top: 5rem;
 
   &::-webkit-scrollbar {
-    width: 1rem;
+    width: .5rem;
   }
 
   &::-webkit-scrollbar-track {
@@ -41,7 +41,7 @@ html {
   }
 
   &::-webkit-scrollbar-thumb {
-    background: $black;
+    background: $bgcolor;
   }
 
 
