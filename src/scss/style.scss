@@ -6,6 +6,8 @@ $primarycolor:#00A4E5;
 $secondarycolor:#48555B;
 $storycolor: #16ACE8;
 $border: #e6e6e6;
+$bgnews:#171819;
+
 
 
 @import 'mixin';
@@ -168,3 +170,4 @@ body {
 @import 'services';
 @import 'header';
 @import 'build';
+@import 'newsletter';

@@ -1,0 +1,44 @@
+.newsletter {
+  background: $bgnews;
+
+  &_inner {
+    padding: 3rem 0;
+    display: flex;
+    gap: 9rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__title {
+    // align-self: stretch;
+    font-size: 2.2rem;
+    line-height: 100%;
+    font-weight: 700;
+    color: $white;
+    letter-spacing: 0.85px;
+  }
+}
+
+.form {
+  display: flex;
+
+  &__email {
+    padding-left: 1.6rem;
+    width: 25rem;
+    color: $secondarycolor;
+  }
+
+  &__email::placeholder {
+    font-size: 1.4rem;
+    line-height: 100%;
+    color: $secondarycolor;
+    letter-spacing: 0.07px;
+  }
+
+  &__btn {
+    padding: .7rem 2.5rem;
+    width: 15rem;
+  }
+}
+
+.btn {}
