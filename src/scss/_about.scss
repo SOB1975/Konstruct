@@ -1,0 +1,83 @@
+.about {
+  &__title {
+    text-align: center;
+    position: relative;
+    margin-top: 5.7rem;
+    text-transform: uppercase;
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: 3.2rem;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 5rem;
+      height: 0.2rem;
+      background: $primarycolor;
+    }
+  }
+
+  &__inner {
+    display: flex;
+    padding-top: 7.2rem;
+    padding-bottom: 11.8rem;
+  }
+
+  &__box {
+    flex: 0 0 50%;
+  }
+
+  &__box_gap {
+    gap: 2rem;
+    padding-top: 2.6rem;
+    padding-left: 1.2rem;
+  }
+
+  &__subtitle {
+    font-size: 2rem;
+    line-height: 130%;
+    font-weight: 700;
+    width: 33.7rem;
+    letter-spacing: 0.017rem;
+    // text-align: justify;
+    // letter-spacing: 0.0019rem;
+  }
+
+  &__subtitle-word {
+    color: $storycolor;
+  }
+
+  &__subtitle-string {
+    display: block;
+    width: 40.5rem;
+  }
+
+  &__txt {
+    margin-top: 3rem;
+    width: 40.5rem;
+  }
+
+
+  &__card {
+    position: relative;
+    flex: 0 0 14rem;
+  }
+
+  &__card-title {
+    position: absolute;
+    top: 2.1rem;
+    left: 1.5rem;
+    font-size: 2.4rem;
+    color: $white;
+    font-weight: 800;
+    line-height: 2.9rem;
+    letter-spacing: 0.019rem;
+    text-transform: uppercase;
+    width: 6.5rem;
+  }
+
+  &__card-img {
+    display: block;
+    width: 100%;
+  }
+}

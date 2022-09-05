@@ -13,15 +13,16 @@
   }
 
   &__content {
-    padding-top: 31.841rem;
+    padding-top: 31rem;
   }
 
   &__title {
-    font-family: 'BebasNeue-Regular', serif;
+    font-family: 'BebasNeue-Regular';
+    font-weight: 300;
     font-size: 6rem;
     text-transform: uppercase;
     line-height: 100%;
-    letter-spacing: 0.571rem;
+    letter-spacing: 0.5rem;
     color: $white;
   }
 
@@ -35,7 +36,7 @@
   }
 
   &__down {
-    padding-top: 22.1rem;
+    padding-top: 23.1rem;
     padding-bottom: 7.1rem;
   }
 
