@@ -1,0 +1,63 @@
+.services {
+  &__top {
+    justify-content: space-between;
+    margin-bottom: 8rem;
+  }
+
+  &__title {
+    flex: 0 0 19.9rem;
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 3.3rem;
+      left: 0;
+      width: 5rem;
+      height: 0.2rem;
+      background: $primarycolor;
+    }
+  }
+
+  &__txt {
+    flex: 0 0 40.54rem;
+    font-size: 1.1rem;
+    line-height: 1.9rem;
+    margin-left: 13rem;
+    letter-spacing: 0.02rem;
+  }
+
+  &__txt span {
+    display: block;
+    width: 35.01rem;
+  }
+
+  &__card-box {
+    gap: 2.8rem;
+  }
+
+  &__card {
+    flex: 0 0 29.5rem;
+    border: .2rem solid $border;
+    padding-top: 3.5rem;
+    padding-left: 2.3rem;
+  }
+
+  &__card-img {
+    display: block;
+    max-width: 100%;
+  }
+
+  &__card-title {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    letter-spacing: 0.043rem;
+    text-transform: uppercase;
+    // width: 26rem;
+    margin-top: 2.3rem;
+  }
+
+  &__card-txt {
+    margin-top: 1.4rem;
+  }
+}

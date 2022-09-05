@@ -137,12 +137,26 @@ body {
   line-height: 100%;
   font-weight: 700;
   letter-spacing: 0.231rem;
+  text-transform: uppercase;
 }
 
 .flex {
   display: flex;
 }
 
+.btn {
+  display: block;
+  font-size: 1.3rem;
+  line-height: 200%;
+  background: $primarycolor;
+  text-align: center;
+  text-transform: uppercase;
+  color: $white;
+  padding: .84rem 2.5rem;
+  letter-spacing: 0.05rem;
+}
+
 @import 'home';
 @import 'about';
+@import 'services';
 @import 'header';
