@@ -1,0 +1,29 @@
+.build {
+  background: url(../img/build.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  // min-height: 50rem;
+
+  &__inner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 16rem;
+    padding-bottom: 23.1rem;
+  }
+
+  &__title {
+    font-size: 3rem;
+    line-height: 3.6rem;
+    letter-spacing: 0.015rem;
+    text-align: center;
+    width: 35rem;
+    margin-bottom: 3rem;
+  }
+
+  &__btn {
+    margin-top: 3rem;
+    margin: 0 auto;
+    width: 15rem;
+  }
+}

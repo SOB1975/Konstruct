@@ -154,9 +154,17 @@ body {
   color: $white;
   padding: .84rem 2.5rem;
   letter-spacing: 0.05rem;
+  // border: .1rem solid $primarycolor;
+}
+
+.btn:hover {
+  color: $primarycolor;
+  background: $white;
+  outline: .1rem solid $primarycolor;
 }
 
 @import 'home';
 @import 'about';
 @import 'services';
 @import 'header';
+@import 'build';
