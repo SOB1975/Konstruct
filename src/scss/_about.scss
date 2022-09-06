@@ -20,16 +20,30 @@
     display: flex;
     padding-top: 7.2rem;
     padding-bottom: 11.8rem;
+
+    @media (max-width: 770px) {
+      flex-wrap: wrap;
+      // justify-content: center;
+    }
   }
 
   &__box {
     flex: 0 0 50%;
+
+    @media (max-width: 770px) {
+      flex: 0 0 100%;
+      justify-content: center;
+    }
   }
 
   &__box_gap {
     gap: 2rem;
     padding-top: 2.6rem;
     padding-left: 1.2rem;
+
+    @media (max-width: 770px) {
+      padding-left: 0;
+    }
   }
 
   &__subtitle {
@@ -38,8 +52,10 @@
     font-weight: 700;
     width: 33.7rem;
     letter-spacing: 0.017rem;
-    // text-align: justify;
-    // letter-spacing: 0.0019rem;
+
+    @media (max-width: 770px) {
+      margin: 0 auto;
+    }
   }
 
   &__subtitle-word {
@@ -49,11 +65,22 @@
   &__subtitle-string {
     display: block;
     width: 40.5rem;
+
+    @media (max-width: 770px) {
+      width: 33.7rem;
+    }
   }
 
   &__txt {
     margin-top: 3rem;
     width: 40.5rem;
+
+    @media (max-width: 770px) {
+      margin: 0 auto;
+      width: 33.7rem;
+      text-align: justify;
+      margin-top: 2rem;
+    }
   }
 
 

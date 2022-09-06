@@ -1,0 +1,145 @@
+.footer {
+  background: $bgfooter;
+  color: $white;
+
+  &__inner {
+    display: flex;
+    padding-top: 4.2rem;
+    padding-bottom: 4rem;
+  }
+
+  &__title {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    line-height: 100%;
+    letter-spacing: 0.085rem;
+    font-weight: 400;
+    margin-bottom: 2.2rem;
+  }
+
+  &__txt {
+    margin-top: 2rem;
+    width: 25rem;
+    font-weight: 400;
+  }
+
+  &__links {
+    padding-left: 7.5rem;
+  }
+
+  &__nav {
+    display: flex;
+  }
+
+  &__nav-list {
+    list-style: none;
+    width: 7.6rem;
+    margin-right: 3rem;
+  }
+
+  &__nav-list_faq {
+    margin-top: 3rem;
+    margin-right: 2rem;
+  }
+
+  &__nav-list_blog {
+    margin-top: 3rem;
+    margin-right: 4rem;
+  }
+
+
+
+  &__nav-item {
+    margin-bottom: 1.2rem;
+  }
+
+  &__nav-title {
+    text-transform: uppercase;
+  }
+
+  &__nav-link {
+    color: $white;
+    text-transform: uppercase;
+  }
+
+  &__contact {
+    width: 11rem;
+  }
+
+  &__adress,
+  &__phone,
+  &__email {
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.6rem;
+    letter-spacing: 0.085rem;
+  }
+
+  &__phone {
+    margin-top: 1.2rem;
+  }
+
+  &__email {
+    margin-top: 1.5rem;
+  }
+
+  &__social {
+    display: flex;
+    padding-left: 8rem;
+    padding-top: 3rem;
+    gap: 2.5rem;
+  }
+
+  &__social-link {
+    display: block;
+    width: 1.24rem;
+    height: 1.24rem;
+
+    &:hover .footer__twitter {
+      fill: $primarycolor;
+    }
+
+    &:hover .footer__google {
+      fill: $primarycolor;
+    }
+
+    &:hover .footer__facebook {
+      fill: $white;
+      background: $primarycolor;
+    }
+  }
+
+  &__facebook,
+  &__twitter,
+  &__google {
+    width: 1.24rem;
+    height: 1.24rem;
+  }
+
+  &__facebook {
+    fill: $black;
+    background: $white;
+    border-radius: .3rem;
+  }
+
+
+  &__twitter {
+    fill: $white;
+  }
+
+  &__google {
+    fill: $white;
+  }
+}
+
+.copyright {
+  background: $bgnews;
+
+  &__txt {
+    font-size: 1.1rem;
+    line-height: 100%;
+    letter-spacing: 0.085rem;
+    text-align: center;
+    padding: 2.3rem 0;
+  }
+}

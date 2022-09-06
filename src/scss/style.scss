@@ -7,6 +7,8 @@ $secondarycolor:#48555B;
 $storycolor: #16ACE8;
 $border: #e6e6e6;
 $bgnews:#171819;
+$bgfooter: #141A20;
+
 
 
 
@@ -97,6 +99,8 @@ body {
   background: $bgcolor;
 }
 
+
+
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -171,3 +175,4 @@ body {
 @import 'header';
 @import 'build';
 @import 'newsletter';
+@import 'footer';
