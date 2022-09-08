@@ -9,11 +9,7 @@ $border: #e6e6e6;
 $bgnews:#171819;
 $bgfooter: #141A20;
 
-
-
-
 @import 'mixin';
-// @import 'fonts';
 @include font-face("OpenSans-Bold", "OpenSans-Bold", 700);
 @include font-face("OpenSans-Regular", "OpenSans-Regular", 400);
 @include font-face("BebasNeue-Regular", "BebasNeue-Regular", 400);
@@ -37,7 +33,6 @@ html {
   overflow-x: hidden;
   color: $secondarycolor;
   scroll-behavior: smooth;
-  // scroll-padding-top: 5rem;
 
   &::-webkit-scrollbar {
     width: .5rem;
@@ -100,8 +95,6 @@ body {
   background: $bgcolor;
 }
 
-
-
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -161,7 +154,6 @@ body {
   color: $white;
   padding: .84rem 2.5rem;
   letter-spacing: 0.05rem;
-  // border: .1rem solid $primarycolor;
 }
 
 .btn:hover {
@@ -185,7 +177,6 @@ body {
     width: 100%;
     height: 100%;
     background: linear-gradient(130deg, $storycolor 50%, $primarycolor 50%);
-    // background: linear-gradient(130deg, $primarycolor 50%, $story 50%);
     border-radius: .5rem;
     background-size: 300%;
 
