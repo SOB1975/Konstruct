@@ -7,6 +7,10 @@
     gap: 9rem;
     justify-content: center;
     align-items: center;
+
+    @media (max-width: 770px) {
+      gap: 5rem;
+    }
   }
 
   &__title {
@@ -26,11 +30,15 @@
     padding-left: 1.6rem;
     width: 25rem;
     color: $secondarycolor;
+
+    @media (max-width: 440px) {
+      padding-bottom: 1rem;
+    }
   }
 
   &__email::placeholder {
     font-size: 1.4rem;
-    line-height: 100%;
+    line-height: 200%;
     color: $secondarycolor;
     letter-spacing: 0.07px;
   }

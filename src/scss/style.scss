@@ -169,6 +169,45 @@ body {
   outline: .1rem solid $primarycolor;
 }
 
+.goup {
+  position: fixed;
+  right: 5%;
+  bottom: 5%;
+  width: 7rem;
+  height: 7rem;
+
+
+  &__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(130deg, $storycolor 50%, $primarycolor 50%);
+    // background: linear-gradient(130deg, $primarycolor 50%, $story 50%);
+    border-radius: .5rem;
+    background-size: 300%;
+
+    &:hover {
+      background-position: 100% 0;
+    }
+
+    &:hover line {
+      stroke: $bgnews;
+    }
+
+  }
+
+  &__link svg {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  &__link line {
+    stroke: $secondarycolor;
+  }
+}
+
 @import 'home';
 @import 'about';
 @import 'services';

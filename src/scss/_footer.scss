@@ -6,6 +6,11 @@
     display: flex;
     padding-top: 4.2rem;
     padding-bottom: 4rem;
+
+    @media (max-width: 770px) {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
   }
 
   &__title {

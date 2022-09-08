@@ -2,11 +2,20 @@
   &__top {
     justify-content: space-between;
     margin-bottom: 8rem;
+
+    @media (max-width: 770px) {
+      flex-wrap: wrap;
+    }
   }
 
   &__title {
     flex: 0 0 19.9rem;
     position: relative;
+
+    @media (max-width:770px) {
+      flex: 0 0 100%;
+      text-align: center;
+    }
 
     &::before {
       content: "";
@@ -16,6 +25,11 @@
       width: 5rem;
       height: 0.2rem;
       background: $primarycolor;
+
+      @media (max-width: 770px) {
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
     }
   }
 
@@ -25,16 +39,50 @@
     line-height: 1.9rem;
     margin-left: 13rem;
     letter-spacing: 0.02rem;
+
+    @media (max-width: 770px) {
+      margin-top: 3rem;
+    }
+
+    @media (max-width: 425px) {
+      flex: 0 0 100%;
+      margin-left: 0;
+      text-align: center;
+    }
   }
 
   &__txt span {
     display: block;
     width: 35.01rem;
+
+    @media (max-width: 425px) {
+      text-align: center;
+      width: 100%;
+    }
+  }
+
+  &__btn {
+    @media (max-width: 770px) {
+      margin-top: 3rem;
+    }
+
+    @media (max-width: 425px) {
+      margin: 3rem auto 0 auto;
+    }
+
   }
 
   &__card-box {
     gap: 2.8rem;
     padding-bottom: 11rem;
+
+    @media (max-width: 770px) {
+      flex-wrap: wrap;
+      // margin: 0 auto;
+      // gap: 0;
+      justify-content: center;
+      // align-items: center;
+    }
   }
 
   &__card {
