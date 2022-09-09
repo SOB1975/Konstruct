@@ -16,7 +16,7 @@
     3.2 [CrossBrowser](#crossbrowser)
 ____
 # Ссылка на макет 
-https://www.figma.com/file/zR1XfguUZ5wWWOy6ah30Xq/konstruct-template
+> https://www.figma.com/file/zR1XfguUZ5wWWOy6ah30Xq/konstruct-template
 
 :arrow_up: [Оглавление](#оглавление)
 ____
