@@ -11,6 +11,18 @@ VSC
   - SASS в формате SCSS
   - flexbox
   - Методология БЭМ
+- PixelPerfect
  ## Сборщик
  Gulp
 ____
+# Тестирование
+## Операционная система
+- Windows 10
+- Windows 11
+## CrossBrowser
+- Chrome
+- Opera
+- Mozila Firefox
+- Edge
+- Yandex browser
+
