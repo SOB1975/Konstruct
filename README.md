@@ -8,7 +8,8 @@ VSC
 ## Технологии
 - HTML
 - CSS
-- SASS в формате SCSS
+  - SASS в формате SCSS
   - flexbox
   - Методология БЭМ
+
 ____
