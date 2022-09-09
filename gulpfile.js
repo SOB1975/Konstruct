@@ -157,6 +157,12 @@ export const svgToDist = () => {
   return gulp.src('./src/img/svg/**.svg')
     .pipe(gulp.dest('./dist/img/svg'))
 }
+//WebpToDist
+export const webpToDist = () => {
+  return gulp.src('./src/img/webp/**.webp')
+    .pipe(gulp.dest('./dist/img/webp'))
+}
+
 // Clean
 export const clean = () => {
   return del(['dist/*'])
@@ -176,6 +182,7 @@ export const watchFiles = () => {
   gulp.watch('./src/img/**/**.jpg', imgToDist);
   gulp.watch('./src/img/**/**.png', imgToDist);
   gulp.watch('./src/img/**/**.jpeg', imgToDist);
+  gulp.watch('./src/img/webp/**.webp', webpToDist);
   gulp.watch('./src/img/svg/**.svg', svgSprites);
   gulp.watch('./src/resources/**', resources);
   gulp.watch('./src/img/svg/**.svg', svgToDist);
@@ -206,6 +213,7 @@ export default gulp.series(
     svgSprites,
     resources,
     svgToDist,
+    webpToDist
   ),
   fontsStyle,
   styles,
