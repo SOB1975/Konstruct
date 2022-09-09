@@ -18,7 +18,7 @@ ____
 # Ссылка на макет 
 https://www.figma.com/file/zR1XfguUZ5wWWOy6ah30Xq/konstruct-template
 
-:arrow_up: [Оглавление](https://github.com/SOB1975/Konstruct/edit/master/README.md#оглавление)
+:arrow_up: [Оглавление](#оглавление)
 ____
 # Инструменты и технологии применяемые в данном проекте
 ____
