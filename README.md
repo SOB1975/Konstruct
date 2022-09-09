@@ -48,4 +48,6 @@ ____
 - Yandex browser
 
 :arrow_up: [Оглавление](https://github.com/SOB1975/Konstruct/edit/master/README.md#оглавление)
+____
+
 
