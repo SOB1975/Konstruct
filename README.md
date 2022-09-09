@@ -17,6 +17,8 @@
 ____
 # Ссылка на макет 
 https://www.figma.com/file/zR1XfguUZ5wWWOy6ah30Xq/konstruct-template
+
+:arrow_up: [Оглавление](https://github.com/SOB1975/Konstruct/edit/master/README.md#оглавление)
 ____
 # Инструменты и технологии применяемые в данном проекте
 ____
@@ -31,6 +33,8 @@ Visual Studio Code (VSC)
 - PixelPerfect
  ## Сборщик
  Gulp
+ 
+ :arrow_up: [Оглавление](https://github.com/SOB1975/Konstruct/edit/master/README.md#оглавление)
 ____
 # Тестирование
 ## Операционная система
@@ -42,4 +46,6 @@ ____
 - Mozila Firefox
 - Edge
 - Yandex browser
+
+:arrow_up: [Оглавление](https://github.com/SOB1975/Konstruct/edit/master/README.md#оглавление)
 
