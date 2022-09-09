@@ -1,9 +1,9 @@
 # Пример лэндинга Konstruct
 # Оглавление
-1. [Ссылка на макет](https://github.com/SOB1975/Konstruct/edit/master/README.md#ссылка-на-макет)
+1. [Ссылка на макет](#ссылка-на-макет)
 2. Инструменты и технологии применяемые в данном проекте
 
-    2.1 [Редактор кода](https://github.com/SOB1975/Konstruct/edit/master/README.md#редактор-кода)
+    2.1 [Редактор кода](#редактор-кода)
     
     2.2 [Технологии](https://github.com/SOB1975/Konstruct/edit/master/README.md#технологии)
     
