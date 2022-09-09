@@ -5,15 +5,15 @@
 
     2.1 [Редактор кода](#редактор-кода)
     
-    2.2 [Технологии](https://github.com/SOB1975/Konstruct/edit/master/README.md#технологии)
+    2.2 [Технологии](#технологии)
     
-    2.3 [Сборщик](https://github.com/SOB1975/Konstruct/edit/master/README.md#сборщик)
+    2.3 [Сборщик](#сборщик)
     
 3. Тестирование 
 
-    3.1 [Операционная система](https://github.com/SOB1975/Konstruct/edit/master/README.md#операционная-система)
+    3.1 [Операционная система](#операционная-система)
     
-    3.2 [CrossBrowser](https://github.com/SOB1975/Konstruct/edit/master/README.md#crossbrowser)
+    3.2 [CrossBrowser](#crossbrowser)
 ____
 # Ссылка на макет 
 https://www.figma.com/file/zR1XfguUZ5wWWOy6ah30Xq/konstruct-template
@@ -34,7 +34,7 @@ Visual Studio Code (VSC)
  ## Сборщик
  Gulp
  
- :arrow_up: [Оглавление](https://github.com/SOB1975/Konstruct/edit/master/README.md#оглавление)
+ :arrow_up: [Оглавление](#оглавление)
 ____
 # Тестирование
 ## Операционная система
@@ -47,7 +47,7 @@ ____
 - Edge
 - Yandex browser
 
-:arrow_up: [Оглавление](https://github.com/SOB1975/Konstruct/edit/master/README.md#оглавление)
+:arrow_up: [Оглавление](#оглавление)
 ____
 
 
