@@ -78,10 +78,7 @@
 
     @media (max-width: 770px) {
       flex-wrap: wrap;
-      // margin: 0 auto;
-      // gap: 0;
       justify-content: center;
-      // align-items: center;
     }
   }
 
@@ -95,6 +92,7 @@
   &__card-img {
     display: block;
     max-width: 100%;
+    height: auto;
   }
 
   &__card-title {
@@ -102,7 +100,6 @@
     line-height: 2.4rem;
     letter-spacing: 0.043rem;
     text-transform: uppercase;
-    // width: 26rem;
     margin-top: 2.3rem;
   }
 
