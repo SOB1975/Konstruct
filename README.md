@@ -25,8 +25,6 @@ ____
 ____
 # Инструменты и технологии применяемые в данном проекте
 ____
-## Редактор кода
-> ![](https://sob1975.github.io/img/dist/img/vscode.png "Visual Studio Code (VSC)")
 ![VS code](https://img.shields.io/badge/Visual_Studio_Code-000?style=for-the-badge&logo=VisualStudioCode&logoColor=007ACC)
 ![HTML](https://img.shields.io/badge/markup_language_HTML-000?style=for-the-badge&logo=HTML5)
 ![Css](https://img.shields.io/badge/Cascading_Style_Sheets_Css-000?style=for-the-badge&logo=CSS3&logoColor=1572B6)
@@ -34,18 +32,7 @@ ____
 ![Sass](https://img.shields.io/badge/Sass-000?style=for-the-badge&logo=Sass&logoColor=CC6699)
 ![gulp](https://img.shields.io/badge/Gulp-000?style=for-the-badge&logo=gulp&logoColor=CF4647)
 
-
-## Технологии
-- HTML
-- CSS
-  - SASS в формате SCSS
-  - flexbox
-  - Методология БЭМ
-- PixelPerfect
- ## Сборщик
- Gulp
- 
- :arrow_up: [Оглавление](#оглавление)
+:arrow_up: [Оглавление](#оглавление)
 ____
 # Тестирование
 ## Операционная система
