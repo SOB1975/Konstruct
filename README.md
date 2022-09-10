@@ -1,5 +1,5 @@
 # Пример лэндинга Konstruct
-![](https://github.com/SOB1975/img/dist/img/Konstruct.jpg)
+![](https://sob1975.github.io/img/dist/img/Konstruct.jpg)
 # Оглавление
 1. [Ссылка на макет](#ссылка-на-макет)
 2. Инструменты и технологии применяемые в данном проекте
