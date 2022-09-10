@@ -26,6 +26,10 @@ ____
 # Инструменты и технологии применяемые в данном проекте
 ____
 ## Редактор кода
+<p align="center">
+ <img width="100px" src="https://res.cloudinary.com/anuraghazra/image/upload/v1594908242/logo_ccswme.svg" align="center" alt="GitHub Readme Stats" />
+ <h2 align="center">GitHub Readme Stats</h2>
+</p>
 > ![](https://sob1975.github.io/img/dist/img/vscode.png "Visual Studio Code (VSC)")
 
 ## Технологии
