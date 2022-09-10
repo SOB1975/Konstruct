@@ -48,6 +48,8 @@ ____
 
 :arrow_up: [Оглавление](#оглавление)
 ____
-
+### ⚙️ GitHub Analytics
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SOB1975)](https://github.com/anuraghazra/github-readme-stats)
+![GitHub streak stats](https://github-readme-streak-stats.herokuapp.com/?user=SOB1975)  
 
 
