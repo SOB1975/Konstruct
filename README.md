@@ -26,11 +26,14 @@ ____
 # Инструменты и технологии применяемые в данном проекте
 ____
 ## Редактор кода
-<p align="center">
- <img width="100px" src="https://res.cloudinary.com/anuraghazra/image/upload/v1594908242/logo_ccswme.svg" align="center" alt="GitHub Readme Stats" />
- <h2 align="center">GitHub Readme Stats</h2>
-</p>
 > ![](https://sob1975.github.io/img/dist/img/vscode.png "Visual Studio Code (VSC)")
+![VS code](https://img.shields.io/badge/Visual_Studio_Code-000?style=for-the-badge&logo=VisualStudioCode&logoColor=007ACC)
+![HTML](https://img.shields.io/badge/markup_language_HTML-000?style=for-the-badge&logo=HTML5)
+![Css](https://img.shields.io/badge/Cascading_Style_Sheets_Css-000?style=for-the-badge&logo=CSS3&logoColor=1572B6)
+![JavaScript](https://img.shields.io/badge/JavaScript-000?style=for-the-badge&logo=JavaScript&logoColor=E9D54D)
+![Sass](https://img.shields.io/badge/Sass-000?style=for-the-badge&logo=Sass&logoColor=CC6699)
+![gulp](https://img.shields.io/badge/Gulp-000?style=for-the-badge&logo=gulp&logoColor=CF4647)
+
 
 ## Технологии
 - HTML
