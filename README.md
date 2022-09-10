@@ -26,7 +26,7 @@ ____
 # Инструменты и технологии применяемые в данном проекте
 ____
 ## Редактор кода
-> ![](https://sob1975.github.io/img/dist/img/vscode.png"Visual Studio Code (VSC)")
+> ![](https://sob1975.github.io/img/dist/img/vscode.png "Visual Studio Code (VSC)")
 
 ## Технологии
 - HTML
