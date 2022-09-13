@@ -1,4 +1,4 @@
-# [Пример лэндинга Konstruct]
+# [Пример лэндинга Konstruct](https://sob1975.github.io/Konstruct/dist/)
 ![](https://sob1975.github.io/img/dist/img/Konstruct.jpg)
 # Оглавление
 1. [Ссылка на макет](#ссылка-на-макет)
